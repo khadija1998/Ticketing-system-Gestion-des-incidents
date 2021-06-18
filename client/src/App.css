@@ -1,0 +1,72 @@
+body{
+  background-image: url('../src/img/green.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App {
+  text-align: center;
+}
+.name{
+   color: #2F5D62;
+}
+
+.title{
+  text-align: center;
+  color: #2F5D62;
+  margin-top: 300px;
+}
+.bg{
+background-color: #5E8B7E;
+
+}
+ #bg {
+ background-color: #DFEEEA
+
+} 
+#bgg{
+  background-color: #A7C4BC;
+  /* color: #A7C4BC */
+ 
+ } 
+
+.nav-link{
+  color:#DFEEEA;
+}
+.navbar{
+height: 100px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #868ea0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.login{
+  margin-top: 140px;
+}
+
